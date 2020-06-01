@@ -1,1 +1,15 @@
-@import "assets/styles/reset.css";
+@import "./assets/styles/reset.css";
+@import "./assets/styles/grid.css";
+@import "./assets/styles/profile.card.css";
+
+.profile-card_margin {
+    margin: 15px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.jc-center {
+    justify-content: center;
+}
