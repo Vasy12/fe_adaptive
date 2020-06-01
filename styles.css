@@ -3,13 +3,7 @@
 @import "./assets/styles/profile.card.css";
 
 .profile-card_margin {
-    margin: 15px;
+    margin: 20px auto;
 }
 
-.display-flex {
-    display: flex;
-}
 
-.jc-center {
-    justify-content: center;
-}
