@@ -1,0 +1,29 @@
+
+.profile-card {
+    max-width: 300px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: dodgerblue;
+
+}
+
+.profile-picture-wrapper {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.profile-picture {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.full-name {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
