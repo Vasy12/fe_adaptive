@@ -5,11 +5,64 @@
     box-sizing: border-box;
 }
 
+
+.responsive-video-wrapper-outer {
+    margin: 100px auto;
+    max-width: 900px;
+}
+
+.responsive-video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+
+}
+
+.responsive-video-wrapper > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 100%;
+    width: 100%;
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+
+.hack {
+    display: block;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%; /*задает высоту родительскому элементу (56,25% 16:9)*/
+    overflow: hidden;
+}
+
+.responsive-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+    object-position: center;
+}
+
 /*
 
 jpg jpeg
 png
 gif
+WebP
 
 ico
 
